@@ -59,3 +59,10 @@ typings/
 
 # next.js build output
 .next
+
+# Transpiled files
+build/
+
+# VS Code
+.vscode
+!.vscode/tasks.js
