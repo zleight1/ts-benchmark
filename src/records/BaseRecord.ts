@@ -1,4 +1,5 @@
-export class BaseRecord {
+import { IRecord } from './IRecord';
+export class BaseRecord implements IRecord {
     public Id: String;
     public ExternalId: String;
 
